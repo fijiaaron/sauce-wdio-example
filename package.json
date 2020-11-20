@@ -7,9 +7,12 @@
     "test": "tests"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "@wdio/cli": "6.9.1"
+  },
   "scripts": {
-    "test": "wdio"
+    "test": "wdio" 
   },
   "repository": {
     "type": "git",
