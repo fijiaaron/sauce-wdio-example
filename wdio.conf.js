@@ -74,7 +74,17 @@ exports.config = {
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
-    }],
+        
+    },
+        {
+            browserName: 'MicrosoftEdge',
+            platformName: 'Windows 10',
+        },
+        {
+            browserName: 'Safari',
+            platformName: 'macOS 10.15'
+        }
+    ],
     //
     // ===================
     // Test Configurations
